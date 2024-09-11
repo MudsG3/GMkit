@@ -48,10 +48,7 @@ main{
 
 
 
-.feature {
-  width: 20%;
-  border: 1px solid blue;
-}
+
 
 .main>* {
   border: 1px solid rgb(255, 0, 179);
@@ -538,21 +535,14 @@ main h1 {
   transform: scale(1.1) rotate(-2deg);
 }
 
-.details {
-  padding: 2.2rem;
-  background-color: var(--color-base-white);
-  z-index: 1;
-  position: relative;
-}
+
 
 .details h2 {
   font-size: 1.8rem;
 
 }
 
-.tags {
-  margin-top: 1.2rem;
-}
+
 
 .tags span {
   padding: .6rem;
