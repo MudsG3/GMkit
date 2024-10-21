@@ -1,0 +1,38 @@
+<html>
+<head>
+    <!-- <base href="https://websim.uxdatabase.io/linktree-dashboard/"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Linktree</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Menu</h2>
+            <div class="menu-item" onclick="showDashboard()">Home</div>
+            <div class="menu-item" onclick="showAddLink()">Add Link</div>
+            <div class="menu-item" onclick="showEditProfile()">Editar Perfil</div>
+        </div>
+        
+        <div class="main" id="main-content">
+            <h1>Dashboard GMkit</h1>
+            <div id="link-editor">
+                <input type="text" id="link-title" placeholder="Título do Link">
+                <input type="text" id="link-url" placeholder="URL do Link">
+                <button onclick="addLink()">Adicionar Link</button>
+            </div>
+            <div id="link-list"></div>
+        </div>
+        
+        <div class="preview" id="preview-content">
+            <h2>Preview</h2>
+            <img src="https://www.w3schools.com/html/pic_trulli.jpg" alt="Foto de perfil de um cachorro fofo" class="profile-pic" id="preview-profile-pic">
+            <div id="preview-profile-name" class="profile-name">Nome do Perfil</div>
+            <div id="preview-profile-bio" class="profile-bio">Biografia do perfil</div>
+            <div id="preview-links"></div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
